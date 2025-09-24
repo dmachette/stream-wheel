@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Spin Wheel Overlay</title>
+<link rel="stylesheet" href="/public/overlay.css"></head><body>
+<div id="app"><canvas id="wheel" width="600" height="600" style="display:block;margin:24px auto;"></canvas><div id="last" style="text-align:center;color:#fff;font-size:18px;margin-top:8px">Last: —</div></div>
+<div id="legendBox" style="display:none;position:fixed;right:12px;bottom:12px;background:rgba(0,0,0,0.6);padding:8px 10px;border-radius:8px;color:#ddd;font-size:13px;line-height:1.4">
+<strong>Legend:</strong><br><span class="tag test">(test)</span> = admin test<br><span class="tag preview">(preview)</span> = preview flash<br><div style="margin-top:6px" id="roleLegend" hidden><strong>Roles:</strong><br>👑 Full Admin<br>🔑 Secondary Admin<br>🔒 = Full Admin only</div></div>
+<div id="flash" style="position:fixed;inset:0;pointer-events:none;opacity:0;z-index:9999"></div>
+<audio id="ding" preload="auto"><source src="/public/sounds/ding.ogg" type="audio/ogg"><source src="/public/sounds/ding.mp3" type="audio/mpeg"></audio>
+<script src="/public/overlay.js"></script>
+</body></html>
