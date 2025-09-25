@@ -1,17 +1,23 @@
 {
-  "admins": {
-    "full": "changeme-full", 
-    "mod": "changeme-mod"
+  "fullAdminPassword": "changeme-full",
+  "secondaryPassword": "changeme-secondary",
+  "upload": {
+    "maxFileSizeMB": 5,
+    "allowedTypes": ["image/png", "image/jpeg", "image/webp"],
+    "resize": {
+      "enabled": true,
+      "width": 512,
+      "height": 512
+    },
+    "keepAllUploads": true
   },
-  "uploads": {
-    "maxSizeMB": 5,
-    "allowedTypes": ["image/png", "image/jpeg", "image/webp"]
+  "flash": {
+    "color": "#ff0000",
+    "opacity": 0.5,
+    "durationMs": 500
   },
-  "logging": {
-    "archiveAfterLines": 5000,
-    "maxArchives": 10
-  },
-  "profiles": {
-    "default": "default.json"
+  "logs": {
+    "autoArchive": true,
+    "archiveAfterMB": 5
   }
 }
