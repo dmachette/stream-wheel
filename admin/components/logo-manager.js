@@ -1,0 +1,1 @@
+// Logo manager logic

@@ -1,0 +1,9 @@
+
+body{font-family:Arial;margin:0;display:flex;height:100vh}
+#sidebar{background:#111;color:#fff;padding:14px;width:240px}
+#main{flex:1;padding:18px;overflow:auto;background:#f6f7fb}
+button{margin:6px 4px}
+.panel{background:#fff;padding:12px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.segment-row{display:flex;gap:8px;align-items:center;margin-bottom:6px}
+.segment-row input[type=text]{flex:1}
+.locked{opacity:0.5;cursor:not-allowed}

@@ -1,0 +1,25 @@
+{
+  "profileName": "Default",
+  "wheelItems": [
+    { "label": "Big Win 🎉", "color": "#FFD700" },
+    { "label": "Small Prize 🎁", "color": "#87CEEB" },
+    { "label": "Try Again ❌", "color": "#FF6347" },
+    { "label": "Mystery Box 🎲", "color": "#9370DB" },
+    { "label": "Extra Spin 🔄", "color": "#32CD32" }
+  ],
+  "flash": {
+    "color": "#ff0000",
+    "opacity": 0.6,
+    "duration": 500
+  },
+  "sound": {
+    "ding": "/ding.mp3"
+  },
+  "leaderboard": {
+    "enabled": true,
+    "topN": 3
+  },
+  "overlay": {
+    "showLegend": true
+  }
+}

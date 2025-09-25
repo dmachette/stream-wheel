@@ -1,0 +1,17 @@
+{
+  "admins": {
+    "full": "changeme-full", 
+    "mod": "changeme-mod"
+  },
+  "uploads": {
+    "maxSizeMB": 5,
+    "allowedTypes": ["image/png", "image/jpeg", "image/webp"]
+  },
+  "logging": {
+    "archiveAfterLines": 5000,
+    "maxArchives": 10
+  },
+  "profiles": {
+    "default": "default.json"
+  }
+}
