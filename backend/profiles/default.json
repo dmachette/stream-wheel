@@ -1,25 +1,25 @@
 {
-  "profileName": "Default",
-  "wheelItems": [
-    { "label": "Big Win 🎉", "color": "#FFD700" },
-    { "label": "Small Prize 🎁", "color": "#87CEEB" },
-    { "label": "Try Again ❌", "color": "#FF6347" },
-    { "label": "Mystery Box 🎲", "color": "#9370DB" },
-    { "label": "Extra Spin 🔄", "color": "#32CD32" }
+  "profileName": "default",
+  "segments": [
+    { "label": "Pizza", "color": "#FF5733" },
+    { "label": "Burger", "color": "#33C1FF" },
+    { "label": "Tacos", "color": "#33FF57" },
+    { "label": "Sushi", "color": "#FF33A8" },
+    { "label": "Pasta", "color": "#FFC133" },
+    { "label": "Salad", "color": "#8D33FF" }
   ],
+  "logo": "/uploads/current-logo.png",
   "flash": {
     "color": "#ff0000",
-    "opacity": 0.6,
-    "duration": 500
+    "opacity": 0.5,
+    "durationMs": 500
   },
   "sound": {
-    "ding": "/ding.mp3"
+    "ding": "/ding.mp3",
+    "enabled": true
   },
   "leaderboard": {
     "enabled": true,
     "topN": 3
-  },
-  "overlay": {
-    "showLegend": true
   }
 }
